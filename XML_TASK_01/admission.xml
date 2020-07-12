@@ -1,0 +1,43 @@
+<admission>
+
+	<info>
+		<admission_id="23">
+		<firstname>John</firstname>
+		<lastname>Carter</lastname>
+	<admission_date>
+		<day>25</day>
+		<month>12</month>
+		<year>2015</year>
+	</admission_date>
+
+	</info>
+
+	<info>
+		<admission_id="29">
+		<firstname>Bob</firstname>
+		<lastname>Marshal</lastname>
+	<admission_date>
+		<day>13</day>
+		<month>01</month>
+		<year>1999</year>
+	</admission_date>
+
+	</info>
+
+	<info>
+		<admission_id="35">
+		<firstname>clark</firstname>
+		<lastname>Kent</lastname>
+	<admission_date>
+		<day>17</day>
+		<month>06</month>
+		<year>2005</year>
+	</admission_date>
+
+	</info>
+
+</admission>
+
+
+
+
