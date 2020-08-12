@@ -108,7 +108,12 @@
 	</center>
 </table>
 
+<br>
+
+<a href="logout.php"><u>Logout</a>
+
 
 </fieldset>
+
 </body>
 </html>
