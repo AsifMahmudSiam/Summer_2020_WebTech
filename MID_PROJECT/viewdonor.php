@@ -5,11 +5,14 @@
 <body>
 	<fieldset>
 		<center>
-		 <legend><b>View Donor List</b></legend>
+		 <legend><b>View Donor List</b></legend><br>
+		 <a href="searchlist.php"><u>Search Donor List</a>&nbsp &nbsp
+		 <a href="Chatdonor.php"><u>Conversation Donor </a>
 		</center>
-		<a href="searchlist.php"><u>Search Donor List</a>
-
+	
 	<center>
+		<br>
+
 
 	<table border="1">
 		<tr>

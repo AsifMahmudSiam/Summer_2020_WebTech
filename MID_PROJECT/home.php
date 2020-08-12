@@ -21,7 +21,7 @@
 
 		<Center>
 			
-			<a href="viewdonor.php"><u>View Donor List</a>
+			<a href="viewdonor.php"><u>View Donor List</a>&nbsp &nbsp
 		
 			<a href="viewreceiver.php"><u>View Receiver List</a>
 

@@ -6,11 +6,13 @@
 	<fieldset>
 		<center>
 		 <legend><b>View Receiver List</b></legend><br>
+		 <a href="searchlistrecevier.php"><u>Search Receiver List</a>&nbsp &nbsp
+		 <a href="chatreceiver.php"><u>Conversation Receiver</a>
 		</center>
 
 	
-			<a href="searchlistrecevier.php"><u>Search Receiver List</a>
-			
+			<br>
+		<center>	
 <table border="1">
 		<tr>
 			<td>ID</td>
@@ -93,5 +95,6 @@
 			
 
 </table>
+</center>
 </fieldset>
 </body>
