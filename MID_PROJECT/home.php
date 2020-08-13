@@ -25,7 +25,15 @@
 		
 			<a href="viewreceiver.php"><u>View Receiver List</a>&nbsp &nbsp
 
-			<a href="covid19.php"><u>COVID'19</a>
+			<a href="covid19.php"><u>COVID'19</a>&nbsp &nbsp
+
+
+
+
+
+			<a href="feeedback.php"><u>Feedback</a>&nbsp &nbsp
+
+
 
 		</center>
 

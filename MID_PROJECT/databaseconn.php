@@ -38,7 +38,7 @@
 						{
 							# code...
 						   $v="Invalid";
-						    reak;
+						    break;
 						}
 						elseif ($a[$b]>'z') 
 						{
