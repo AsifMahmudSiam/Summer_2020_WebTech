@@ -17,7 +17,9 @@
 				<tr height="9%">
 					<td> Name</td>
 					<td>
-						<input type="text" name="name">
+						<td><input type="text" id="username" name="username" onkeyup="remover()"></td>
+			            <td id="usernamemsg">
+
 					</td>
 					<td width="6%"></td>
 				</tr>
@@ -25,7 +27,7 @@
 					<td> Email</td>
 					<td>
 						<td><input type="email" id="email" name="email" onkeyup="remover()"></td>
-						<td id="emailmsg"></td>
+						<td id="emailmsg">
 					</td>
 					<td width="6%"></td>
 				</tr>
@@ -35,6 +37,8 @@
 						<input type="radio" name="gender">  Male 
 						<input type="radio" name="gender"> Female
 						<input type="radio" name="gender"> Other
+
+						<td id="gendermsg">
 					</td>
 					<td width="6%"></td>
 				</tr>
