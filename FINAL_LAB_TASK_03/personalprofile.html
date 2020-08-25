@@ -2,9 +2,11 @@
 <html>
 <head>
 	<title></title>
+
+	<script type="text/javascript" src="personalprofile.js"></script>
 </head>
 <body>
-	<form>
+	<form action="personalprofile.php" method="post" onsubmit="return profilevalidation()" >
 
 		<table align="center" width="30%" height="60%" border="2">
 				<tr>
@@ -22,7 +24,8 @@
 				<tr height="9%">
 					<td> Email</td>
 					<td>
-						<input type="email" name="email">
+						<td><input type="email" id="email" name="email" onkeyup="remover()"></td>
+						<td id="emailmsg"></td>
 					</td>
 					<td width="6%"></td>
 				</tr>
