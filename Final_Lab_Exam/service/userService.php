@@ -8,7 +8,7 @@
 			echo "DB connection error";
 		}
 
-		$sql = "select * from users where id={$id}";
+		$sql = "select * from users where username={$id}";
 		$result = mysqli_query($conn, $sql);
 		$row = mysqli_fetch_assoc($result);
 		return $row;
@@ -44,10 +44,10 @@
 		$result = mysqli_query($conn, $sql);
 		$user = mysqli_fetch_assoc($result);
 
-		if(count($user) > 0 ){
-			return true;
+		if(empty($user)){
+			return "none";
 		}else{
-			return false;
+			return $user['type'];
 		}
 	}
 
